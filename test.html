@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>repl.it</title>
+    <style>
+      #create-form label {
+        font-weight: 600;
+      }
+      #create-form p:last-child {
+        transform: translateY(-16px);
+      }
+      #create-form p {
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Create An Account</h1>
+  </body>
+  <form id="create-form">
+    <p>
+      <label for="first-name">First name</label>
+      <input id="first-name" type="text" placeholder="First name" required />
+    </p>
+    <p>
+      <label for="last-name">Last name</label>
+      <input id="last-name" type="text" placeholder="Last name" required />
+    </p>
+    <p>
+      <label for="email">Email</label>
+      <input id="email" type="email" placeholder="Email" required />
+    </p>
+    <p>
+      <label for="user-name">Username</label>
+      <input id="user-name" type="text" placeholder="Username" required />
+    </p>
+    <p>
+      <label for="password">Password</label>
+      <input id="password" type="password" placeholder="Password" required minlength="10" />
+    </p>
+    <p>
+      <label for="birth">Birth date</label>
+      <input id="birth" type="date" required />
+    </p>
+    <p>
+      <label for="happy">How happy are you?</label>
+      <input id="happy" type="range" required />
+    </p>
+    <p>
+      <label for="color">What is your fav.color?</label>
+      <input id="color" type="color" required />
+    </p>
+    <p>
+      <input type="submit" value="Create Account" />
+    </p>
+  </form>
+</html>
