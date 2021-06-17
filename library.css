@@ -1,0 +1,196 @@
+body {
+  width: 340px;
+  height: 750px;
+  font-family: noto sans jp;
+  background-color: black;
+}
+.background {
+  background-color: white;
+}
+.menu {
+  display: flex;
+  font-size: 20px;
+  font-weight: 500;
+  justify-content: space-between;
+  background-color: #ffce33;
+  padding: 30px 12px 55px 12px;
+}
+.search {
+  display: flex;
+  position: relative;
+  bottom: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+  align-items: center;
+}
+.search input,
+.search button {
+  border: none;
+}
+.search input {
+  height: 50px;
+  width: 320px;
+  border-radius: 25px;
+  z-index: 1;
+  box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.1);
+}
+.search button {
+  position: absolute;
+  background-color: white;
+  z-index: 2;
+
+  right: 15px;
+  font-size: 16px;
+  opacity: 0.2;
+}
+.search input::placeholder {
+  padding-left: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  opacity: 0.3;
+  font-family: noto sans jp;
+}
+
+.rating {
+  display: flex;
+}
+.rating-star {
+  color: #ffcf37;
+  font-size: 12px;
+  margin-right: 5px;
+}
+
+.daily-book {
+  margin-left: 10px;
+}
+.daily-book-body {
+  display: flex;
+}
+.daily-book__header {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.daily-book__thumbnail {
+  margin-right: 15px;
+}
+.daily-book__thumbnail img {
+  width: 108px;
+  height: 160px;
+  border-radius: 7px;
+}
+.daily-book__title,
+.daily-book__subtitle {
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+.daily-book__title {
+  font-size: 18px;
+}
+.daily-book__subtitle {
+  opacity: 0.2;
+  font-size: 13px;
+}
+.daily-book__button {
+  margin-top: 15px;
+}
+.daily-book-first-block,
+.daily-book-second-block {
+  display: flex;
+  margin-bottom: 15px;
+}
+.daily-book__button__journey,
+.daily-book__button__biography {
+  background-color: #f7f7f7;
+  font-size: 12px;
+  padding: 7px 12px;
+  border-radius: 5px;
+  font-weight: 500;
+}
+.daily-book__button__journey {
+  margin-right: 7px;
+}
+.daily-book__button__bookmark,
+.daily-book__button__booknow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.daily-book__button__bookmark {
+  background-color: #ffce33;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 40px;
+}
+.daily-book__button__bookmark i {
+  font-size: 13px;
+}
+.daily-book__button__booknow {
+  color: white;
+  background-color: black;
+  width: 100px;
+  height: 33px;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 200;
+}
+
+.recommend-book {
+  margin-left: 10px;
+  margin-top: 15px;
+  overflow-x: scroll;
+}
+.recommend-book-flex-box {
+  display: flex;
+}
+.recommend-book__header {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.recommend-book__thumbnail img {
+  width: 70px;
+  height: 110px;
+  border-radius: 7px;
+}
+.rating--recommend {
+  transform: scale(60%);
+  position: relative;
+  right: 9px;
+  margin-top: 10px;
+}
+.popular-authors {
+  padding-bottom: 20px;
+  margin-left: 15px;
+}
+.popular-authors__block {
+  display: flex;
+}
+.popular-authors__header {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.popular-authors__profile {
+  margin-right: 15px;
+}
+.popular-authors__profile img {
+  width: 108px;
+  height: 130px;
+  border-radius: 7px;
+}
+.popular-authors__title,
+.popular-authors__subtitle {
+  font-weight: 500;
+}
+.popular-authors__title {
+  margin-bottom: 13px;
+  font-size: 18px;
+}
+.popular-authors__subtitle {
+  opacity: 0.2;
+  font-size: 13px;
+  line-height: 20px;
+}
